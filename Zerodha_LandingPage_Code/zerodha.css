@@ -1,0 +1,43 @@
+.nav-btn {
+  padding: 20px;
+  color: #666;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #387ed1;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 3px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-shadow: 0px 1px 2px #eee;
+}
+
+.logo {
+  padding-top: 20px;
+}
+
+.heading {
+  color: #424242;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 2.75rem;
+  line-height: 1.25rem;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #424242;
+}

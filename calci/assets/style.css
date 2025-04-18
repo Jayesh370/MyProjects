@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    border: 2px solid rebeccapurple;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color:#2C3E50;
+
+}
+.container{
+    /* border: 2px solid red; */
+    height: 30rem;
+    width: 40rem;
+    border-radius: 5px;
+    /* Display grid properties */
+    padding: 1rem;
+    background-color: #2d4762;
+    border-radius: 15px;
+}
+.inner-div1{
+    width: 100%;
+    /* border: 2px solid blue; */
+    height: 16%;
+    background-color: #1C2833;
+    color: white;
+    font-size:1.5em;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 5px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.inner-div2{
+    margin-top: 15px;
+    background-color: #1C2833;
+    /* border: 2px solid rgb(255, 47, 168); */
+    height: 80%;
+    padding: 10px;
+    border-radius: 15px;
+
+    /* grid properties */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 10px;
+    /*it is property of adjust column and rows   */
+}
+.box{
+    border-radius: 200px;
+    background-color: #F4F4ED;
+    color: #2C3E50;
+    font-size: 24px;
+    font-weight:600;
+    cursor: pointer;
+    /* text-align: center;
+    line-height:55px;  we have one more option*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.box:hover{
+    background-color: #F4F4ED;
+    opacity: 90%;
+}
+.box:active{
+    background-color: #F4F4ED;
+    opacity: 80%;
+
+}
+#box4{ 
+    background-color: #7887AB; /*Del button */
+    color: white;
+}
+#box4:hover{
+    background-color: #7887AB;
+}
+#box17{
+    background-color:#7887AB ;/*reset button*/
+    color: white;
+    grid-column: 1/3; /* that 1 and 3 is line we aslo write 1/span2 means start 1 it contain 2 block*/
+}
+#box18{
+    background-color: #E74C3C;/* = button*/
+    color: #FFFFFF;
+    grid-column: 3/5;
+}   
